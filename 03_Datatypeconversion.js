@@ -21,8 +21,35 @@ let  score = null;
 // "rohan"=>true
 
 
-let snum= 33
-let stnum=String(snum)
-console.log(stnum);
-console.log(typeof stnum);
+// let snum= 33
+// let stnum=String(snum)
+// console.log(stnum);
+// console.log(typeof stnum);
 
+// ---------------------------------------------------------------------------------
+
+
+// // operations
+
+// let val=5
+// let neval=-val
+// // console.log(neval);
+
+
+// let st1="let"
+// // let st2=" learn js"
+// console.log(st1+st2);
+
+// console.log("1" + 2);
+// console.log("1" + "2");
+// console.log(1 + "2");
+// console.log("1" + 2 +2);
+// console.log( 2 +3+"4");
+
+
+//  tricky conversion
+// console.log(+true); //=>1
+// console.log(+"");//=>0
+
+
+let nu1,nu2,nu3;
