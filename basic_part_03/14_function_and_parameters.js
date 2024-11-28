@@ -33,9 +33,30 @@ function loginmesaage(username ="sam") {
 // const re =loginmesaage()
 // console.log(re);
 
-
-
-
-function price(){
-    
+const us={
+    uname:"Rohannn",
+    price:4453
 }
+
+
+function handleobject(anyobject)
+ {
+   console.log(`HI CHEFI ${anyobject.uname} your balance ${anyobject.price} `);
+}
+
+// handleobject(us)
+handleobject({
+    uname:"Shubh",
+    price:"2.2 decilion"
+})
+
+
+const n_arr= [222,333,555]
+
+function retrunsecondvalue(anyarray) {
+
+    return anyarray[1]
+}
+
+// console.log(retrunsecondvalue(n_arr));
+console.log(retrunsecondvalue([333,444,55,33]));
